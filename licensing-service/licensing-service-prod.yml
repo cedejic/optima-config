@@ -1,8 +1,8 @@
 example:
-  property: I AM DEV
+  property: I AM PROD
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/ostock_dev
+    url: jdbc:postgresql://localhost:5432/ostock_prod
     username: postgres
     password: '{cipher}73966d55dc742d74fe6b3dec1711aa19e0acf9c5e178ddfb8730e663b6ee8196'

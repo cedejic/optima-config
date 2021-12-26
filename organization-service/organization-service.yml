@@ -1,6 +1,3 @@
-example:
-  property: I AM THE DEFAULT
-
 spring:
   sql:
     init:
@@ -19,6 +16,9 @@ spring:
     tomcat:
       test-while-idle: true
       validation-query: "SELECT 1"
+
+server:
+  port: 8081
 
 management:
   endpoints:
